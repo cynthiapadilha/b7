@@ -1,0 +1,56 @@
+*{
+    font-family:Arial;
+    box-sizing: border-box;
+}
+body{
+    margin:50;
+    background-color:rgb(252, 243, 243);
+ 
+}
+label{
+    display:block;
+    margin-bottom:10px;
+}
+input{
+    font-size:15px;
+}
+.name,
+.lastname,
+.adress,
+.email,
+.fone,
+.msg{
+    padding:10px;
+    width:500px;
+    border:1px solid #e0d6de;
+    outline:0;    
+}
+.msg{
+    height:150px;
+    resize:none;
+}
+.botao{
+    padding:10px;
+    font-size:15px;
+    border:1px solid #e0d6de;
+    background-color: #f8c9c9;
+}
+.botao:hover{
+    background-color: aliceblue;
+}
+fieldset{
+    background-color: #fae7e7;
+    margin-bottom:20px;
+    border:1px solid #e0d6de
+}
+legend{
+    background-color:#f8c9c9;  
+    padding:20px;
+}
+.selecione{
+    padding:10px;
+    width:500px;
+    border:1px solid #e0d6de;
+    outline:0;   
+   
+}

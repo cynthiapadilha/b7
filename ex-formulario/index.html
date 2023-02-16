@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,user-scalable=0" />
+    <link rel="stylesheet" type="text/css" href="../formulario/estilo.css"/>
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Formulário de Inscrição</h1>
+    <h2><strong>Área de cadastro</strong></h2>
+    <form action="paginas/login.html" method="post"></form>
+    <fieldset>
+            <legend>Dados Pessoais</legend>
+        <label>
+            <strong>Nome:</strong><br/>
+                <input type="text" name="nome" class="name" placeholder="Escreva seu nome" autocomplete="off"required minlength="2"/>
+        </label><br/>
+        <label>
+            <strong>Sobrenome:</strong><br/>
+                <input type="text" name="nome"class="lastname" placeholder="Escreva seu sobrenome" autocomplete="off"required minlength="2"/>
+        </label><br/>
+        <label>
+            <strong>Gênero:</strong><br/>
+        <select>
+            <option disabled="disabled" selected="selected" class="selecione">
+                Selecione
+            </option>
+                <option value="fem" >Feminino</option>
+                <option value="masc">Masculino</option>
+                <option value="nb">Não-Binário</option>
+                <option value="pnr">Prefiro não responder</option>
+        </select><br/>
+    </label>
+    </fieldset>
+    <fieldset>
+            <legend>Dados para contato</legend>
+            <label>
+                <strong> E-mail:</strong><br/>
+                    <input type="email" name="email"class="email" placeholder="Escreva seu email" autocomplete="off"/>
+            </label><br/>
+        <label>
+            <strong> Telefone:</strong><br/>
+                <input type="tel" name="telefone"class="fone"placeholder="Escreva seu telefone" autocomplete="off"/>
+        </label><br/>
+        <label>
+            <strong> Endereço:</strong><br/>
+                <input type="text" name="endereco"class="adress" placeholder="Escreva seu endereço" autocomplete="off"/>
+        </label><br/>
+    </fieldset>
+    <fieldset>
+            <legend>Outros</legend>
+        <label>
+         <strong>Sua mensagem:</strong><br/>
+                <textarea type="text" name="texto"class="msg"placeholder="Escreva sua mensagem aqui " autocomplete="off"></textarea>
+        </label><br/>
+        <label>
+                <input type="submit" value="Enviar" class="botao"/>
+        </label><br/>
+        <label>
+            <input type="checkbox" name="novidades"><strong>Deseja receber nossas novidades</strong><br/>
+    </label><br/>
+   
+    </fieldset>
+</body>
+</html>

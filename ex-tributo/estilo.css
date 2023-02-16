@@ -1,0 +1,68 @@
+*{
+    font-family:Arial;
+}
+body{
+    margin:0;
+    background-color:white;
+}
+.container{
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    
+}
+.sobreRW{
+   
+    background-color: rgba(147, 161, 196, 0.918);
+    width: 100%;
+    height: 100%;
+}
+.fotoRW{
+    padding: 20px;
+    margin:10px;
+    border: 1px solid #000;
+}
+figcaption{
+    font-size:12px;
+    text-align-last:center;
+}
+.textosobreRW{
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+    background-color: rgba(147, 161, 196, 0.918);
+    line-height: 25px;
+    
+}
+.filmografia{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    font-size: 15px;
+    background-color: rgba(147, 161, 196, 0.918);
+    line-height: 25px;
+    
+} 
+.rodape a{
+    text-decoration:none;
+    color:black;
+    font-size: 12px;
+    padding: 50px;
+
+}
+.rodape {
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    text-decoration:none;
+    background-color: rgba(147, 161, 196, 0.918);
+
+
+}
