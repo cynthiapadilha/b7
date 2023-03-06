@@ -1,0 +1,24 @@
+body:not(p){
+    background-color: lightblue;
+}
+p{
+    background-color: lightgray;
+}
+
+div{
+    background-color: lightpink;
+    width: 90px;
+    height: 90px;
+}
+
+
+
+
+div:first-child{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+div:last-child{
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}

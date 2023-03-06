@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: lightblue;
+        }
+        .container{
+            background-color: lightpink;
+            height: 200px;
+            display: flex;
+           align-items: center;
+            justify-content: center;
+            
+        }
+        .container div{
+            background-color: red;
+            width: 100px;
+            margin:10px;
+            text-align: center;
+            height: 50px;
+        }
+        div .esse{
+           /* align-self: flex-start;*/
+           order: 1;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div>1</div>
+        <div>2</div>
+        <div class="esse">3</div>
+        <div>4</div>
+    </div>
+</body>
+</html>
