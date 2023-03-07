@@ -1,0 +1,16 @@
+.balao{
+    background-color: pink;
+    display: inline-block;
+    color: white;
+    padding: 25px; /*aumentei o padding achei que ficou mais bonito*/
+    border-radius: 20px;
+}
+.balao::after{
+    content:"";
+    display: inline-block;
+    position: absolute;
+    margin-left: 15px;
+    top:19px;
+    border:20px solid;
+    border-color: transparent transparent transparent pink;
+}

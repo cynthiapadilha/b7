@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <link rel="stylesheet" href="estilo/style7.css">
+</head>
+<body>
+    <table>
+        <caption>Tabela</caption>
+        <thead>
+            <tr>
+                <th scope="col">Numero</th>
+                <th scope="col">Nome</th>
+                <th colspan="2" scope="colgroup">Produto</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Camila</td>
+                <td>camiseta</td>
+                <td>calça</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Leticia</td>
+                <td>calça</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Vanessa</td>
+                <td>vestido</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Juliana</td>
+                <td>blusa</td>
+            </tr>
+        </tbody>
+    </table>
+    <table>
+        <caption>Segunda tabela</caption>
+        <thead>
+            <th scope="col">Grupos</th>
+            <th scope="col">Nomes</th>
+            <th colspan="2"  scope="colgroup">Trabalho</th>
+            
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="3" scope="rowgroup">Mulheres</th>
+                <td>Michele</td>
+                <td>Produtora</td>
+                <td rowspan="2" >1</td>
+            </tr>
+            <tr>
+                <td>Cynthia</td>
+                <td>Programadora</td>
+            </tr>
+            <tr>
+                <td>Julia</td>
+                <td>Dirtetora</td>
+                <td rowspan="2">2</td>
+            </tr>
+            <tr>
+                <th rowspan="3" scope="rowgroup">Homens</th>
+                <td>Michael</td>
+                <td>Programador</td>
+            </tr>
+            <tr>
+                <td>Lucas</td>
+                <td>Professor</td>
+                <td rowspan="2" >3</td>
+            </tr>
+            <tr>
+                <td>Gustavo</td>
+                <td>Entregador</td>
+            </tr>
+
+        </tbody>
+    </table>
+</body>
+</html>
