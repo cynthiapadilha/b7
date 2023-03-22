@@ -1,0 +1,16 @@
+.container{
+    height: 580px;
+    background-color: antiquewhite;
+    display: grid;
+    grid-template-columns: repeat(3 , 200px);
+    gap: 20px;
+    justify-content: end;
+    align-content: end;
+
+}
+.item{
+    background-color: lightcoral;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
