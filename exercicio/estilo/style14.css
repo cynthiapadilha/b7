@@ -1,0 +1,54 @@
+.container{
+    
+    display: grid;
+    background-color: lightblue;
+    gap: 10px;
+    padding: 50px;
+    grid-template-areas:
+    "cabecalho cabecalho cabecalho cabecalho"
+    "menu1 conteudo conteudo conteudo"
+    "rodape rodape rodape anuncio "
+
+    ;
+   
+}
+.item{
+    background-color: lightseagreen;
+    color: white;
+    padding: 15px;
+    font-size: 1.2em;
+    border-radius: 20px;
+}
+
+.cabecalho{
+    grid-area: cabecalho;
+}
+
+.menu{
+    grid-area: menu1;
+}
+
+.conteudo{
+    grid-area: conteudo;
+}
+
+.rodape{
+    grid-area: rodape;
+
+}
+
+.anuncio{
+    grid-area: anuncio;
+}
+
+@media (max-width:750px){
+    .container{
+        grid-template-areas:
+        "cabecalho cabecalho cabecalho menu1"
+        "conteudo conteudo conteudo conteudo"
+        "anuncio anuncio anuncio anuncio"
+        "rodape rodape rodape rodape"
+
+        ;
+    }
+}
