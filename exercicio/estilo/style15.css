@@ -1,0 +1,27 @@
+.container{
+    display:grid;
+    background-color: lightblue;
+    padding: 15px;
+    gap: 15px;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.item{
+    background-color: lightcoral;
+    font-size: 1.2em;
+    padding: 15px;
+    border-radius: 10px;
+
+}
+
+@media (min-width:402px) and (max-width:1024px) {
+    .container{
+        grid-template-columns: repeat(2 , 1fr);
+    }
+}
+
+@media( max-width:600px){
+    .container{
+        grid-template-columns: 1fr;
+    }
+}
